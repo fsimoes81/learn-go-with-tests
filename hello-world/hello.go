@@ -11,6 +11,10 @@ const (
 	frenchHelloPrefix  = "Bonjour, "
 )
 
+func Test(name string) {
+
+}
+
 func Hello(name string, language string) string {
 
 	if name == "" {
